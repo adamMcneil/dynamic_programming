@@ -1,0 +1,16 @@
+digraph stepone {
+node [shape=circle]
+edge [arrowhead=none]
+subgraph clusterGraph {
+label="maxHeapify(25)"
+array [shape=record label="10|20|60|30|70|29|25"]
+10 -> 20
+10 -> 60
+20 -> 30
+20 -> 70
+60 -> 29
+60 -> 25 [dir="both" arrowhead=normal]
+}
+60 [color=red]
+25 [color=red]
+}

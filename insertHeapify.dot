@@ -1,0 +1,18 @@
+digraph insertHeapify {
+node [shape=circle]
+edge [arrowhead=none]
+subgraph clusterGraph {
+label="maxHeapify(60)"
+array [shape=record label="80|30|60|10|20|25|29"]
+80 -> 30
+80 -> 60 [dir="both" arrowhead=normal]
+30 -> 10
+30 -> 20
+60 -> 25
+60 -> 29 [dir="both" arrowhead=normal]
+
+}
+60 [color=red]
+29 [color=red]
+80 [color=red]
+}

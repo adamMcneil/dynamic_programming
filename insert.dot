@@ -1,0 +1,16 @@
+digraph insert {
+node [shape=circle]
+edge [arrowhead=none]
+subgraph clusterGraph {
+label="insert(80)"
+array [shape=record label="60|30|29|10|20|25|80"]
+60 -> 30
+60 -> 29
+30 -> 10
+30 -> 20
+29 -> 25
+29 -> 80
+
+}
+80 [color=red]
+}

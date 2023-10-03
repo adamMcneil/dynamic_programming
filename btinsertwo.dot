@@ -1,0 +1,14 @@
+digraph btinsertwo {
+label="insert(40)"
+node [shape=circle]
+edge [arrowhead=none]
+72 -> {35, 91}
+35 -> {18, 37}
+91 -> {83, 92}
+18 -> {13, 19}
+37 -> {2, 62}
+62 -> {40, 1}
+
+1 [shape=point]
+2 [shape=point]
+}

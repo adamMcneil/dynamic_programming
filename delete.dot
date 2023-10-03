@@ -1,0 +1,17 @@
+digraph delete {
+node [shape=circle]
+edge [arrowhead=none]
+subgraph clusterGraph {
+label="delete(70)"
+array [shape=record label="25|30|60|10|20|29|70"]
+25 -> 30
+25 -> 60
+30 -> 10
+30 -> 20
+60 -> 29
+
+}
+60 [color=red]
+29 [color=red]
+25 [color=red]
+}

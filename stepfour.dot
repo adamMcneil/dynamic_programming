@@ -1,0 +1,17 @@
+digraph stepfour {
+node [shape=circle]
+edge [arrowhead=none]
+subgraph clusterGraph {
+label="maxHeapify(25)"
+array [shape=record label="60|30|29|10|20|25| "]
+60 -> 30
+60 -> 29
+30 -> 10
+30 -> 20
+29 -> 25
+
+}
+25 [color=red]
+60 [color=red]
+29 [color=red]
+}
