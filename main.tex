@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[pdf]{graphviz}
+\usepackage{graphviz}
 \usepackage{amsmath}
 
 
@@ -279,23 +280,33 @@ Adam McNeil\\
       1 & 0     
     \end{tabular}\\
  $ (A_{1} \  A_{2}) \  (A_{3} \ A_{4}) $\\
- 4)\\   
- \begin{tabular}{ c | c | c | c | c | c | c | c | c | c}           
-             &  & C & A & C & M & Y & C & C & A \\ 
-    \hline   & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-    \hline M & 0 &←0 &←0 &←0 & 1 & 1 & 1 & 1 & 1 \\  
-    \hline C & 0 &   &   &   &   &   &   &   &   \\  
-    \hline M & 0 &   &   &   &   &   &   &   &   \\  
-    \hline A & 0 &   &   &   &   &   &   &   &   \\  
-    \hline M & 0 &   &   &   &   &   &   &   &   \\  
-    \hline Y & 0 &   &   &   &   &   &   &   &   \\  
-    \hline C & 0 &   &   &   &   &   &   &   &   \\  
-    \hline C & 0 &   &   &   &   &   &   &   &   \\  
-    \hline M & 0 &   &   &   &   &   &   &   &   \\  
-    \hline A & 0 &   &   &   &   &   &   &   &   \\  
-    \hline Y & 0 &   &   &   &   &   &   &   &   \\  
+ 4)   
+    \includegraphics[scale=0.5]{subsequence.png}
+5)\\
+\begin{tabular}{ c | c | c | c | c | c}         
+c & 1 & 2 & 3 & 4 & 5 \\ 
+4 & 0 & 0 & 0 & 0 & 0.06 \\  
+3 & 0 & 0 & 0 & 0.06 \\
+2 & 0 & 0 & 0.07 \\
+1 & 0 & 0.07 \\   
+0 & 0.07     
+\end{tabular}
 
-\end{tabular}\\
+\begin{tabular}{ c | c | c | c | c | c}         
+w & 1 & 2 & 3 & 4 & 5 \\ 
+4 & 0 & 0 & 0 & 0 & 0\\  
+3 & 0 & 0 & 0 & 0\\
+2 & 0 & 0 & 0\\
+1 & 0 & 0 \\   
+0 & 0     
+\end{tabular}
 
+\begin{tabular}{ c | c | c | c | c | c}         
+root & 1 & 2 & 3 & 4  \\ 
+4    & 0 & 0 & 0 & 0 \\  
+3    & 0 & 0 & 0 \\
+2    & 0 & 0 \\
+1    & 0 \\   
+\end{tabular}
 
 \end{document}
