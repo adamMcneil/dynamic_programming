@@ -102,14 +102,17 @@ int main(char *argc, char* argv[]) {
     char *x = "CACMYCCA";
     char *y = "MCMAMYCCMAY";
 
-    // FILE *file;
-    // char* file_name = argv[1];
-    // printf("%s", file_name);
-    // file = fopen(argv[1], "r");
+    FILE *file;
+    char* file_name = argv[1];
+    printf("%lu", sizeof(file_name)/sizeof(char));
+    for (int i = 0; i < sizeof(file_name)/sizeof(char); i++) {
+        printf("%c", file_name[i]);
+    }
+    file = fopen(argv[1], "r");
 
-    // fscanf(file, "%s", x);
+    fscanf(file, "%s", x);
     int x_length = strlen(x);
-    // fscanf(file, "%s", y);
+    fscanf(file, "%s", y);
     int y_length = strlen(y);
 
     // fclose(file);

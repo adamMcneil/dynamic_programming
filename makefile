@@ -1,17 +1,14 @@
-all: hw1
+all:hw2
 
 run:main.c
 	make hw1
 	./hw1
 
-hw1:main.c
-	gcc main.c -o  hw1 -lm
+hw2:main.c
+	gcc main.c -o  hw2 -lm
 
 doc: main.tex
 	pdflatex -shell-escape main.tex -o main.pdf
 
-hello:
-	echo hello
-
 clean:
-	rm hw1
+	rm hw2
