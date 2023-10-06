@@ -45,7 +45,7 @@ char* longest_common_subsequence(char* x, int x_length, char* y, int y_length) {
             i--;
         } else {
             printf("%c", y[j-1]);
-            substring[substring_index--] = y[i-1];
+            substring[substring_index--] = y[j-1];
             i--; 
             j--;
         }
@@ -71,7 +71,7 @@ char* longest_continuous_common_subsequence(char* x, int x_length, char* y, int 
                 array[i][j] = array[i-1][j-1] + 1;
                 if (array[i][j] > max_length) {
                     max_length = array[i][j];
-                    max_i = i;
+                    max_i = i - 1 ;
                 }
             } 
             printf("%d", array[i][j]);
@@ -84,10 +84,9 @@ char* longest_continuous_common_subsequence(char* x, int x_length, char* y, int 
     printf("%d\n", substring_length);
     char* substring = (char *)malloc((substring_length) * sizeof(char));
 
-    for (int i = 0; i <= max_length; i++) {
-        substring[i] = x[max_i - i];
-        printf("%c", x[max_i - i]);
-
+    printf("%u", max_i);
+    for (int i = 0; i < max_length; i++) {
+        substring[max_length - 1 - i] = x[max_i - i];
     }
     return substring;
 }
@@ -99,24 +98,36 @@ int main(char *argc, char* argv[]) {
     // {
     //     printf("%s",argv[i]);
     // }
-    char *x = "CACMYCCA";
-    char *y = "MCMAMYCCMAY";
+    // char *x = "CACMYCCA";
+    // char *y = "MCMAMYCCMAY";
+
+    char x[99];
+    char y[99];
 
     FILE *file;
     char* file_name = argv[1];
-    printf("%lu", sizeof(file_name)/sizeof(char));
+    printf("%lu\n", sizeof(file_name)/sizeof(char));
     for (int i = 0; i < sizeof(file_name)/sizeof(char); i++) {
         printf("%c", file_name[i]);
     }
+    printf("\n");
     file = fopen(argv[1], "r");
 
     fscanf(file, "%s", x);
     int x_length = strlen(x);
+    printf("%u\n", x_length);
     fscanf(file, "%s", y);
     int y_length = strlen(y);
+    printf("%u\n", y_length);
 
     // fclose(file);
 
-    longest_continuous_common_subsequence(y, y_length, x, x_length);
+    char* answer = longest_common_subsequence(y, y_length, x, x_length);
+    for (int i = 0; i < strlen(answer); i++)
+    {
+        printf("%c", answer[i]);
+    }
+    printf("\n");
+    
     return 0;
 }

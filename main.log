@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.28)  5 OCT 2023 18:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.28)  5 OCT 2023 21:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -186,7 +186,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 9--14
+Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
  []
 
@@ -195,7 +195,7 @@ runsystem(dot -Tpdf -o stepone.pdf stepone.dot)...executed.
 <stepone.pdf, id=1, 422.57875pt x 344.28625pt>
 File: stepone.pdf Graphic file (type pdf)
 <use stepone.pdf>
-Package pdftex.def Info: stepone.pdf  used on input line 15.
+Package pdftex.def Info: stepone.pdf  used on input line 16.
 (pdftex.def)             Requested size: 211.28885pt x 172.1427pt.
 \dotfile=\write3
 \openout3 = `stepone.dot'.
@@ -205,7 +205,7 @@ runsystem(dot -Tpdf -o steptwo.pdf steptwo.dot)...executed.
 <steptwo.pdf, id=2, 422.57875pt x 344.28625pt>
 File: steptwo.pdf Graphic file (type pdf)
 <use steptwo.pdf>
-Package pdftex.def Info: steptwo.pdf  used on input line 32.
+Package pdftex.def Info: steptwo.pdf  used on input line 33.
 (pdftex.def)             Requested size: 211.28885pt x 172.1427pt.
 \dotfile=\write4
 \openout4 = `steptwo.dot'.
@@ -215,7 +215,7 @@ runsystem(dot -Tpdf -o stepthree.pdf stepthree.dot)...executed.
 <stepthree.pdf, id=3, 422.57875pt x 344.28625pt>
 File: stepthree.pdf Graphic file (type pdf)
 <use stepthree.pdf>
-Package pdftex.def Info: stepthree.pdf  used on input line 49.
+Package pdftex.def Info: stepthree.pdf  used on input line 50.
 (pdftex.def)             Requested size: 211.28885pt x 172.1427pt.
 \dotfile=\write5
 \openout5 = `stepthree.dot'.
@@ -233,7 +233,7 @@ h page group included in a single page
 <delete.pdf, id=25, 422.57875pt x 344.28625pt>
 File: delete.pdf Graphic file (type pdf)
 <use delete.pdf>
-Package pdftex.def Info: delete.pdf  used on input line 68.
+Package pdftex.def Info: delete.pdf  used on input line 69.
 (pdftex.def)             Requested size: 211.28885pt x 172.1427pt.
 \dotfile=\write6
 \openout6 = `delete.dot'.
@@ -243,7 +243,7 @@ runsystem(dot -Tpdf -o stepfour.pdf stepfour.dot)...executed.
 <stepfour.pdf, id=26, 407.5225pt x 344.28625pt>
 File: stepfour.pdf Graphic file (type pdf)
 <use stepfour.pdf>
-Package pdftex.def Info: stepfour.pdf  used on input line 86.
+Package pdftex.def Info: stepfour.pdf  used on input line 87.
 (pdftex.def)             Requested size: 203.76074pt x 172.1427pt.
 \dotfile=\write7
 \openout7 = `stepfour.dot'.
@@ -253,7 +253,7 @@ runsystem(dot -Tpdf -o insert.pdf insert.dot)...executed.
 <insert.pdf, id=27, 422.57875pt x 344.28625pt>
 File: insert.pdf Graphic file (type pdf)
 <use insert.pdf>
-Package pdftex.def Info: insert.pdf  used on input line 104.
+Package pdftex.def Info: insert.pdf  used on input line 105.
 (pdftex.def)             Requested size: 211.28885pt x 172.1427pt.
 \dotfile=\write8
 \openout8 = `insert.dot'.
@@ -272,7 +272,7 @@ th page group included in a single page
 <insertHeapify.pdf, id=53, 422.57875pt x 344.28625pt>
 File: insertHeapify.pdf Graphic file (type pdf)
 <use insertHeapify.pdf>
-Package pdftex.def Info: insertHeapify.pdf  used on input line 121.
+Package pdftex.def Info: insertHeapify.pdf  used on input line 122.
 (pdftex.def)             Requested size: 211.28885pt x 172.1427pt.
 \dotfile=\write9
 \openout9 = `insertHeapify.dot'.
@@ -282,13 +282,13 @@ runsystem(dot -Tpdf -o questiontwo.pdf questiontwo.dot)...executed.
 <questiontwo.pdf, id=54, 333.245pt x 371.3875pt>
 File: questiontwo.pdf Graphic file (type pdf)
 <use questiontwo.pdf>
-Package pdftex.def Info: questiontwo.pdf  used on input line 140.
+Package pdftex.def Info: questiontwo.pdf  used on input line 141.
 (pdftex.def)             Requested size: 166.62209pt x 185.69328pt.
 \dotfile=\write10
 \openout10 = `questiontwo.dot'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--158
+Underfull \hbox (badness 10000) in paragraph at lines 122--159
 
  []
 
@@ -306,7 +306,7 @@ runsystem(dot -Tpdf -o btinsertone.pdf btinsertone.dot)...executed.
 <btinsertone.pdf, id=80, 373.395pt x 394.47375pt>
 File: btinsertone.pdf Graphic file (type pdf)
 <use btinsertone.pdf>
-Package pdftex.def Info: btinsertone.pdf  used on input line 159.
+Package pdftex.def Info: btinsertone.pdf  used on input line 160.
 (pdftex.def)             Requested size: 186.69704pt x 197.23639pt.
 \dotfile=\write11
 \openout11 = `btinsertone.dot'.
@@ -316,7 +316,7 @@ runsystem(dot -Tpdf -o btinsertwo.pdf btinsertwo.dot)...executed.
 <btinsertwo.pdf, id=81, 373.395pt x 475.7775pt>
 File: btinsertwo.pdf Graphic file (type pdf)
 <use btinsertwo.pdf>
-Package pdftex.def Info: btinsertwo.pdf  used on input line 172.
+Package pdftex.def Info: btinsertwo.pdf  used on input line 173.
 (pdftex.def)             Requested size: 186.69704pt x 237.88815pt.
 \dotfile=\write12
 \openout12 = `btinsertwo.dot'.
@@ -326,13 +326,13 @@ runsystem(dot -Tpdf -o btdelete.pdf btdelete.dot)...executed.
 <btdelete.pdf, id=82, 378.41376pt x 394.47375pt>
 File: btdelete.pdf Graphic file (type pdf)
 <use btdelete.pdf>
-Package pdftex.def Info: btdelete.pdf  used on input line 187.
+Package pdftex.def Info: btdelete.pdf  used on input line 188.
 (pdftex.def)             Requested size: 189.2064pt x 197.23639pt.
 \dotfile=\write13
 \openout13 = `btdelete.dot'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--200
+Underfull \hbox (badness 10000) in paragraph at lines 188--202
 
  []
 
@@ -341,158 +341,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--200
 pdfTeX warning: pdflatex (file ./btinsertwo.pdf): PDF inclusion: multiple pdfs 
 with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 201--217
+Underfull \hbox (badness 10000) in paragraph at lines 203--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--222
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--222
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--226
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--226
+Underfull \hbox (badness 10000) in paragraph at lines 225--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 229--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 229--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--252
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
  []
 
 [5 <./btdelete.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 253--257
+Underfull \hbox (badness 10000) in paragraph at lines 238--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--257
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--261
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--261
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--265
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--265
+Underfull \hbox (badness 10000) in paragraph at lines 264--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--267
 
  []
 
 <subsequence.png, id=115, 833.1125pt x 640.3925pt>
 File: subsequence.png Graphic file (type png)
 <use subsequence.png>
-Package pdftex.def Info: subsequence.png  used on input line 284.
+Package pdftex.def Info: subsequence.png  used on input line 286.
 (pdftex.def)             Requested size: 416.55524pt x 320.19547pt.
 
-Overfull \hbox (71.55524pt too wide) in paragraph at lines 266--292
+Overfull \hbox (71.55524pt too wide) in paragraph at lines 268--294
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--292
+Underfull \hbox (badness 10000) in paragraph at lines 268--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--292
+Underfull \hbox (badness 10000) in paragraph at lines 268--294
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 293--298
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--298
+Underfull \hbox (badness 10000) in paragraph at lines 295--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--319
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--319
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--319
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
 
  []
 
 [7 <./subsequence.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--338
+<graph.png, id=126, 1285.80376pt x 784.9325pt>
+File: graph.png Graphic file (type png)
+<use graph.png>
+Package pdftex.def Info: graph.png  used on input line 341.
+(pdftex.def)             Requested size: 321.45015pt x 196.23264pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--338
+Underfull \hbox (badness 10000) in paragraph at lines 343--352
 
  []
 
-[8] (./main.aux) ) 
+[8 <./graph.png>] [9] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2665 strings out of 480247
- 44133 string characters out of 5896151
+ 2672 strings out of 480247
+ 44227 string characters out of 5896151
  339500 words of memory out of 5000000
- 20590 multiletter control sequences out of 15000+600000
+ 20596 multiletter control sequences out of 15000+600000
  470021 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,8n,76p,252b,112s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on main.pdf (8 pages, 168259 bytes).
+ 70i,8n,76p,252b,118s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b>
+Output written on main.pdf (9 pages, 345833 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,11 @@
+digraph bonus {
+label="Bonus"
+edge [arrowhead=none]
+72 [label="something()"]-> {37, 91}
+91 -> {83, 92}
+18 -> {13, 19}
+37 -> {18, 62}
+62 -> {40, 1}
+
+1 [shape=point]
+}

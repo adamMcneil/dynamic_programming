@@ -8,7 +8,8 @@
 
 CS5200 Homework 2 Dynamic Programming\\
 Adam McNeil\\
-1) max heapify \\
+Question 1) \\
+max heapify \\
 \indent Call max heapify on all the internal nodes starting at the bottom \\
 \indent maxHeapify(25) \\
 
@@ -136,7 +137,7 @@ Adam McNeil\\
    29 [color=red]
    80 [color=red]
 } \\
-2) 
+Question 2) 
 \digraph[scale=0.5]{questiontwo}{
     node [shape=circle]
     edge [arrowhead=none]
@@ -196,7 +197,8 @@ Adam McNeil\\
     
     1 [shape=point]
 }\\
-3) $ p_{0} = 4 \,\  p_{1} = 10 \,\  p_{2} = 3 \,\  p_{3} = 12 \,\  p_{4} = 7 $\\
+Question 3) \\
+$ p_{0} = 4 \,\  p_{1} = 10 \,\  p_{2} = 3 \,\  p_{3} = 12 \,\  p_{4} = 7 $\\
 
 \begin{tabular}{ c | c | c | c | c }
             
@@ -280,9 +282,9 @@ Adam McNeil\\
       1 & 0     
     \end{tabular}\\
  $ (A_{1} \  A_{2}) \  (A_{3} \ A_{4}) $\\
- 4)   \\
+ Question 4)   \\
     \includegraphics[scale=0.5]{subsequence.png}
-5)\\
+Question 5)\\
 \begin{tabular}{ c | c | c | c | c | c}         
           i & 0 & 1 & 2 & 3 & 4 \\ 
 \hline    $p_{i}$ & 0 & 0.05 & 0.12 & 0.3 & 0.2 \\  
@@ -335,6 +337,16 @@ root & 1 & 2 & 3 & 4  \\
 \end{tabular}
 \\
 Bonus:\\
+optimal substructure the solution either contains the number or does not contain the number\\
+\includegraphics[scale=0.25]{graph.png}
 
-
+Pseudo code: \\ 
+sumOfSubset(set, n) {\\
+\indent listOfSums = [0]\\
+\indent for i in set:\\
+\indent \indent for j in listOfSums:\\
+\indent \indent \indent if i + j is not in listOfSums:\\
+\indent\indent\indent\indent listOfSums.addFront(i+j)\\
+\indent return is n in listOfSums\\
+}
 \end{document}
