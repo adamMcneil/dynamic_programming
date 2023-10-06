@@ -25,14 +25,14 @@ char* longest_common_subsequence(char* x, int x_length, char* y, int y_length) {
                     array[i][j] = array[i][j-1];
                 }
             }
-            printf("%d", array[i][j]);
-            printf(" ");
+            // printf("%d", array[i][j]);
+            // printf(" ");
         }
-        printf("\n");
+        // printf("\n");
     }
 
     int substring_length = array[x_length][y_length];
-    printf("%d\n", substring_length);
+    // printf("%d\n", substring_length);
     char* substring = (char *)malloc((substring_length) * sizeof(char));
 
     int substring_index = substring_length-1;
@@ -44,13 +44,13 @@ char* longest_common_subsequence(char* x, int x_length, char* y, int y_length) {
         } else if (array[i][j] == array[i-1][j]) {
             i--;
         } else {
-            printf("%c", y[j-1]);
+            // printf("%c", y[j-1]);
             substring[substring_index--] = y[j-1];
             i--; 
             j--;
         }
     }
-    printf("\n");
+    // printf("\n");
     return substring;
 }
 
@@ -74,17 +74,17 @@ char* longest_continuous_common_subsequence(char* x, int x_length, char* y, int 
                     max_i = i - 1 ;
                 }
             } 
-            printf("%d", array[i][j]);
-            printf(" ");
+            // printf("%d", array[i][j]);
+            // printf(" ");
         }
-        printf("\n");
+        // printf("\n");
     }
 
     int substring_length = max_length;
-    printf("%d\n", substring_length);
+    // printf("%d\n", substring_length);
     char* substring = (char *)malloc((substring_length) * sizeof(char));
 
-    printf("%u", max_i);
+    // printf("%u", max_i);
     for (int i = 0; i < max_length; i++) {
         substring[max_length - 1 - i] = x[max_i - i];
     }
@@ -106,28 +106,34 @@ int main(char *argc, char* argv[]) {
 
     FILE *file;
     char* file_name = argv[1];
-    printf("%lu\n", sizeof(file_name)/sizeof(char));
+    // printf("%lu\n", sizeof(file_name)/sizeof(char));
     for (int i = 0; i < sizeof(file_name)/sizeof(char); i++) {
-        printf("%c", file_name[i]);
+        // printf("%c", file_name[i]);
     }
-    printf("\n");
+    // printf("\n");
     file = fopen(argv[1], "r");
 
     fscanf(file, "%s", x);
     int x_length = strlen(x);
-    printf("%u\n", x_length);
+    // printf("%u\n", x_length);
     fscanf(file, "%s", y);
     int y_length = strlen(y);
-    printf("%u\n", y_length);
+    // printf("%u\n", y_length);
 
     // fclose(file);
 
+
+    FILE *fp;
+    fp = fopen(argv[2], "w+");
+
+
     char* answer = longest_common_subsequence(y, y_length, x, x_length);
-    for (int i = 0; i < strlen(answer); i++)
+    int answer_length = strlen(answer);
+    fprintf(fp, "%u\n", answer_length);
+    for (int i = 0; i < answer_length; i++)
     {
-        printf("%c", answer[i]);
+        fprintf(fp, "%c", answer[i]);
     }
-    printf("\n");
     
     return 0;
 }

@@ -1,0 +1,13 @@
+digraph heapSort {
+node [shape=circle]
+edge [arrowhead=none]
+subgraph clusterGraph {
+label="heapSort()"
+array [shape=record label="29|25|20|10|30|60|80"]
+29 -> 25
+29 -> 20
+25 -> 10
+
+}
+
+}
